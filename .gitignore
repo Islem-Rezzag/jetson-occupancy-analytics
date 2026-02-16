@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+
+logs/
+reports/
+data/outputs/
+data/sessions/
+data/inputs/demo_test.mp4
+
+.DS_Store
+Thumbs.db
