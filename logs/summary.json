@@ -1,0 +1,12 @@
+﻿{
+  "occupancy_now": 0,
+  "peak_occupancy": 0,
+  "total_in": 0,
+  "total_out": 0,
+  "per_zone_dwell_seconds": {
+    "door": 0.0,
+    "waiting": 0.0
+  },
+  "line_orientation": "pending",
+  "line_position_px": null
+}

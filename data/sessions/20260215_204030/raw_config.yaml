@@ -1,0 +1,69 @@
+project:
+  name: smart_occupancy_analytics
+input:
+  uri: /dev/video0
+  width: 640
+  height: 480
+  fps: 30
+detector:
+  network: ssd-mobilenet-v2
+  threshold: 0.5
+tracker:
+  iou_match_threshold: 0.3
+  max_missed_frames: 10
+  history_length: 30
+line:
+  orientation: auto
+  position_ratio: 0.55
+  calibration_seconds: 2.5
+  min_track_age_for_count: 5
+  cooldown_seconds: 0.75
+zones:
+- name: door
+  x1: 0.05
+  y1: 0.2
+  x2: 0.95
+  y2: 0.6
+- name: waiting
+  x1: 0.05
+  y1: 0.6
+  x2: 0.95
+  y2: 0.95
+heatmap:
+  grid_w: 160
+  grid_h: 90
+  save_every_seconds: 2.0
+output:
+  display: true
+  save_snapshots: true
+  snapshot_every_seconds: 3.0
+logging:
+  csv_path: logs/events.csv
+  summary_path: logs/summary.json
+  write_every_seconds: 0.5
+demo_pack:
+  enable: true
+  sessions_root: data/sessions
+  record_video: true
+  video_filename: outputs/annotated.mp4
+  video_fps: 20
+  snapshot_dir: outputs/snapshots
+  auto_report: true
+  zip_on_exit: false
+capacity:
+  enable: true
+  warn_occupancy: 6
+  max_occupancy: 8
+  cooldown_sec: 10
+privacy:
+  enable: false
+  method: blur_boxes
+  blur_kernel: 31
+hud:
+  sparkline: true
+  history_seconds: 60
+dashboard:
+  enable: true
+  host: 127.0.0.1
+  port: 8124
+  stream_fps: 5

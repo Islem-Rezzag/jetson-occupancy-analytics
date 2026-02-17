@@ -1,0 +1,26 @@
+{
+  "occupancy_now": 0,
+  "final_occupancy": 0,
+  "peak_occupancy": 3,
+  "total_in": 20,
+  "total_out": 18,
+  "per_zone_dwell_seconds": {
+    "door": 168.4337804800016,
+    "waiting": 1.9549799560008978
+  },
+  "line_orientation": "vertical",
+  "line_position_px": 704.0,
+  "capacity_level": "none",
+  "capacity_alert_counts": {
+    "warn": 0,
+    "exceeded": 0
+  },
+  "project": "smart_occupancy_analytics",
+  "frames_processed": 1048,
+  "input_uri": "/dev/video0",
+  "mode": "camera",
+  "detector_backend": "detectnet",
+  "session_duration_seconds": 209.465,
+  "avg_fps": 5.003,
+  "status": "ok"
+}

@@ -1,0 +1,5 @@
+timestamp,row_type,event_type,message,occupancy,occupancy_value,total_in,total_out,zone_dwell_door,zone_dwell_waiting,line_orientation,capacity_level
+2026-02-15T20:39:07.669+00:00,snapshot,,,1,1,0,0,2.902,0.0,pending,none
+2026-02-15T20:39:08.197+00:00,snapshot,,,3,3,0,0,4.432,0.0,pending,none
+2026-02-15T20:39:08.781+00:00,snapshot,,,3,3,0,0,6.132,0.0,pending,none
+2026-02-15T20:39:09.372+00:00,snapshot,,,2,2,0,0,7.585,0.0,pending,none

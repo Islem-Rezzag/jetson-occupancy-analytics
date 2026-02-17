@@ -1,0 +1,25 @@
+{
+  "timestamp_start_utc": "2026-02-15T20:39:04+00:00",
+  "timestamp_end_utc": "2026-02-15T20:39:11+00:00",
+  "hostname": "MSI",
+  "input_uri": "C:\\Users\\moham\\Downloads\\Real-Time People Counter and Occupancy Analytics\\occupancy_analytics\\data\\inputs\\demo_test.mp4",
+  "mode": "video",
+  "detector_network": "ssd-mobilenet-v2",
+  "detector_backend": "hog",
+  "source_backend": "opencv",
+  "frames_processed": 20,
+  "avg_fps": 4.016,
+  "session_duration_seconds": 4.98,
+  "frame_size": {
+    "width": 640,
+    "height": 360
+  },
+  "status": "ok",
+  "artifacts": {
+    "events_csv": "logs/events.csv",
+    "summary_json": "logs/summary.json",
+    "occupancy_plot": "reports/occupancy_plot.png",
+    "heatmap_plot": "reports/heatmap.png",
+    "annotated_video": "outputs\\annotated.mp4"
+  }
+}

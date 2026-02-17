@@ -1,0 +1,25 @@
+{
+  "timestamp_start_utc": "2026-02-16T20:32:37+00:00",
+  "timestamp_end_utc": "2026-02-16T20:36:08+00:00",
+  "hostname": "mohamed-desktop",
+  "input_uri": "/dev/video0",
+  "mode": "camera",
+  "detector_network": "ssd-mobilenet-v2",
+  "detector_backend": "detectnet",
+  "source_backend": "jetson",
+  "frames_processed": 1048,
+  "avg_fps": 5.003,
+  "session_duration_seconds": 209.465,
+  "frame_size": {
+    "width": 1280,
+    "height": 720
+  },
+  "status": "ok",
+  "artifacts": {
+    "events_csv": "logs/events.csv",
+    "summary_json": "logs/summary.json",
+    "occupancy_plot": "reports/occupancy_plot.png",
+    "heatmap_plot": "reports/heatmap.png",
+    "annotated_video": "outputs/annotated.mp4"
+  }
+}

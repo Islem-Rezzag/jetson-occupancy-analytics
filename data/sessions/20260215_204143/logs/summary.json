@@ -1,0 +1,26 @@
+{
+  "occupancy_now": 3,
+  "final_occupancy": 3,
+  "peak_occupancy": 3,
+  "total_in": 0,
+  "total_out": 0,
+  "per_zone_dwell_seconds": {
+    "door": 4.202465000009397,
+    "waiting": 0.0
+  },
+  "line_orientation": "pending",
+  "line_position_px": null,
+  "capacity_level": "exceeded",
+  "capacity_alert_counts": {
+    "warn": 0,
+    "exceeded": 1
+  },
+  "project": "smart_occupancy_analytics",
+  "frames_processed": 10,
+  "input_uri": "C:\\Users\\moham\\Downloads\\Real-Time People Counter and Occupancy Analytics\\occupancy_analytics\\data\\inputs\\demo_test.mp4",
+  "mode": "video",
+  "detector_backend": "hog",
+  "session_duration_seconds": 2.8,
+  "avg_fps": 3.571,
+  "status": "ok"
+}

@@ -1,0 +1,4 @@
+timestamp,row_type,event_type,message,occupancy,occupancy_value,total_in,total_out,zone_dwell_door,zone_dwell_waiting,line_orientation,capacity_level
+2026-02-15T20:41:45.787+00:00,snapshot,,,1,1,0,0,1.862,0.0,pending,exceeded
+2026-02-15T20:41:45.788+00:00,event,capacity_exceeded,Capacity exceeded,1,1,0,0,1.862,0.0,pending,exceeded
+2026-02-15T20:41:46.400+00:00,snapshot,,,3,3,0,0,3.372,0.0,pending,exceeded
